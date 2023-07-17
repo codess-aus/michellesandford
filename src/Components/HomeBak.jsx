@@ -27,10 +27,13 @@ const imageAltText = "Adult female on stage at a technical conference presenting
 const Home = ({ name, title }) => {
   return (
     <section id="home" className="min-height">
-      <img className="background" src={image} alt={imageAltText} />
-      <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "30vh", flexDirection: "column" }}>
-        <h1 className="title" style={{ color: "white", fontSize: "5rem" }}>{name}</h1>
-        <h2 style={{ color: "white", fontSize: "1rem" }}>{title}</h2>
+      <img className="background" src={image} alt="" />
+      <div style={{ position: "absolute", top: "5rem", left: "2rem", width: "17rem" }}>
+        <h1>{name}</h1>
+        <h2>{title}</h2>
+      </div>
+      <div style={{ position: "absolute", bottom: "3rem", left: "50%" }}>
+        <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
       </div>
     </section>
   );

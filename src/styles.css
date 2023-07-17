@@ -46,7 +46,7 @@ section img.background {
 }
 
 h1 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 7rem;
   font-weight: 400;
   line-height: 0.8;
@@ -54,7 +54,8 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
   font-weight: 400;
   margin: 0;
   padding-top: 1rem;
@@ -122,4 +123,10 @@ a:hover {
 img.socialIcon {
   height: 30px;
   width: 30px;
+}
+
+footer {
+  background-color: #298494;
+  color: #fff;
+  padding: 1rem;
 }
