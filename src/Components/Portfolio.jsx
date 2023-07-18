@@ -51,7 +51,7 @@ const projectList = [
   {
     title: "Has Your Puppy Joined the Dark Side?",
     description:
-      "How to Build a PWA/Azure Static Web App with Custom Vision AI.",
+      "How to Build a PWA/Azure Static Web App with Custom Vision AI. This conference session is a live demo and contains images of Ewoks and Shihtzus.",
     url: "https://www.youtube.com/live/ZaV6tGFNL8g?feature=share&t=3637",
   },
 ];
