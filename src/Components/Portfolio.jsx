@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop and puppy";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "TedxPerth: Where Have All the Girls Gone?",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Working in Tech is the best career in the world, but that isn't the story we are telling. We need to change the narrative and tell the world that Tech is for everyone.",
+    url: "https://youtu.be/R6UODmQXzIs",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Rise of the Tech Influencer",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Keeping your head down and working hard is not enough anymore. If you want to move onwards and upwards in this world you have to make sure the world knows your name.",
+    url: "https://youtu.be/W0Lui4HlHkk",
   },
   {
-    title: "My Resume Site",
+    title: "The Modern Trolley Problem: Responsible AI Principles",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "We live in an age where self-driving cars are no-longer just an interesting philosophical thought experiment, but a reality. When things go wrong, there is an immediate and heated debate around where the blame lies (Programmer, Manufacturer, Owner, Driver), but the more interesting discussion always starts further back than that.",
+    url: "https://youtu.be/nla1LGT83FE",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Has Your Puppy Joined the Dark Side?",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "How to Build a PWA/Azure Static Web App with Custom Vision AI.",
+    url: "https://www.youtube.com/live/ZaV6tGFNL8g?feature=share&t=3637",
   },
 ];
 
