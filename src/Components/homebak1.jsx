@@ -32,39 +32,6 @@ const Home = ({ name, title }) => {
         <h1 className="title" style={{ color: "white", fontSize: "5rem" }}>{name}</h1>
         <h2 style={{ color: "white", fontSize: "1rem" }}>{title}</h2>
       </div>
-      <style jsx>{`
-        @media only screen and (max-width: 768px) {
-          /* Adjust font sizes for smaller screens */
-          h1.title {
-            font-size: 3rem;
-          }
-
-          h2 {
-            font-size: 0.8rem;
-          }
-
-          /* Adjust height of section for smaller screens */
-          section#home {
-            min-height: 50vh;
-          }
-        }
-
-        @media only screen and (min-width: 769px) and (max-width: 1024px) {
-          /* Adjust font sizes for medium screens */
-          h1.title {
-            font-size: 4rem;
-          }
-
-          h2 {
-            font-size: 1rem;
-          }
-
-          /* Adjust height of section for medium screens */
-          section#home {
-            min-height: 70vh;
-          }
-        }
-      `}</style>
     </section>
   );
 };

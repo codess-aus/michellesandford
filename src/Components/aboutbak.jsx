@@ -1,4 +1,4 @@
-/*/**
+*
  * About component
  *
  * Space for you to describe more about yourself.
@@ -79,60 +79,6 @@ const About = () => {
         <hr />
         <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
       </div>
-      <style jsx>{`
-        @media only screen and (max-width: 768px) {
-          /* Adjust width of section for smaller screens */
-          section#about {
-            width: 100%;
-          }
-
-          /* Adjust font sizes for smaller screens */
-          h2 {
-            font-size: 2rem;
-          }
-
-          p.large {
-            font-size: 1rem;
-          }
-
-          ul {
-            font-size: 1rem;
-            margin: 2rem 1rem;
-            columns: 1;
-          }
-
-          /* Adjust padding and margin for smaller screens */
-          div {
-            padding: 2rem;
-            margin: 1rem auto;
-            width: 90%;
-          }
-        }
-
-        @media only screen and (min-width: 769px) and (max-width: 1024px) {
-          /* Adjust font sizes for medium screens */
-          h2 {
-            font-size: 3rem;
-          }
-
-          p.large {
-            font-size: 1.5rem;
-          }
-
-          ul {
-            font-size: 1.5rem;
-            margin: 2rem 3rem;
-            columns: 2;
-          }
-
-          /* Adjust padding and margin for medium screens */
-          div {
-            padding: 4rem;
-            margin: 3rem auto;
-            width: 70%;
-          }
-        }
-      `}</style>
     </section>
   );
 };
