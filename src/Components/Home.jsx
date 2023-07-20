@@ -26,7 +26,7 @@ const imageAltText = "Adult female on stage at a technical conference presenting
 
 const Home = ({ name, title }) => {
   return (
-    <section id="home" className="min-height">
+    <section id="home" className="min-height section">
       <img className="background" src={image} alt={imageAltText} />
       <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "30vh", flexDirection: "column" }}>
         <h1 className="title" style={{ color: "white", fontSize: "5rem" }}>{name}</h1>

@@ -25,6 +25,16 @@ section {
   width: 100vw;
 }
 
+.section {
+  padding: 100px 0;
+}
+
+@media(max-width: 1000px) {
+  .section {
+    padding: 50px 0;
+  }
+}
+
 section.min-height {
   min-height: 100vh;
 }
@@ -129,6 +139,17 @@ footer {
   background-color: #298494;
   color: #fff;
   padding: 1rem;
+}
+
+.portfolio > div {
+  display: flex;
+  padding-top: 3rem;
+}
+
+@media(max-width: 1000px) {
+  .portfolio > div {
+    flex-direction: column;
+  }
 }
 
 /* Media queries for responsive design */

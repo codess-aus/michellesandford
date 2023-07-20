@@ -49,9 +49,10 @@ const detailOrQuote =
 
 const About = () => {
   return (
-    <section className="padding" id="about">
+    <section className="padding section" id="about">
       <img className="background" src={image} alt={imageAltText} />
       <div
+        className="container"
         style={{
           backgroundColor: "white",
           width: "50%",
@@ -66,7 +67,6 @@ const About = () => {
         <ul
           style={{
             textAlign: "left",
-            columns: 2,
             fontSize: "1.25rem",
             margin: "2rem 3rem",
             gap: "3rem",
@@ -80,7 +80,35 @@ const About = () => {
         <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
       </div>
       <style jsx>{`
-        @media only screen and (max-width: 768px) {
+       ul {
+        columns: 2;
+      }
+
+          @media (max-width: 1024px) {
+            /* Adjust font sizes for medium screens */
+            h2 {
+              font-size: 3rem;
+            }
+
+            p.large {
+              font-size: 1.5rem;
+            }
+
+            ul {
+              font-size: 1.5rem;
+              margin: 2rem 3rem;
+              columns: 2;
+            }
+
+            /* Adjust padding and margin for medium screens */
+            .container {
+              padding: 4rem;
+              margin: 3rem auto;
+              width: 70%;
+            }
+          }
+
+        @media (max-width: 950px) {
           /* Adjust width of section for smaller screens */
           section#about {
             width: 100%;
@@ -109,29 +137,7 @@ const About = () => {
           }
         }
 
-        @media only screen and (min-width: 769px) and (max-width: 1024px) {
-          /* Adjust font sizes for medium screens */
-          h2 {
-            font-size: 3rem;
-          }
-
-          p.large {
-            font-size: 1.5rem;
-          }
-
-          ul {
-            font-size: 1.5rem;
-            margin: 2rem 3rem;
-            columns: 2;
-          }
-
-          /* Adjust padding and margin for medium screens */
-          div {
-            padding: 4rem;
-            margin: 3rem auto;
-            width: 70%;
-          }
-        }
+        
       `}</style>
     </section>
   );
